@@ -6,7 +6,7 @@ import { RecruiterDashboard } from './components/RecruiterDashboard';
 import { AdminDashboard } from './components/AdminDashboard';
 import { DbmsLaboratory } from './components/DbmsLaboratory';
 import { AuthModal } from './components/AuthModal';
-import { Database, ShieldCheck, Cpu } from 'lucide-react';
+import { Database } from 'lucide-react';
 
 const AppContent: React.FC = () => {
   const { user } = useAuth();
@@ -37,7 +37,7 @@ const AppContent: React.FC = () => {
         )}
       </main>
 
-      {/* Institutional Academic Footer */}
+      {/* Footer */}
       <footer className="mt-16 bg-white border-t border-slate-200 py-8 px-4 sm:px-6 lg:px-8 text-xs text-slate-500">
         <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
           <div className="flex items-center gap-2">
@@ -46,20 +46,7 @@ const AppContent: React.FC = () => {
             </div>
             <div>
               <span className="font-bold text-slate-900">College Placement Management System</span>
-              <span className="ml-2 text-slate-400">| DBMS Academic Project (MySQL 8.0 • 3NF)</span>
             </div>
-          </div>
-
-          <div className="flex items-center gap-4 text-[11px] text-slate-500">
-            <span className="flex items-center gap-1">
-              <ShieldCheck className="w-3.5 h-3.5 text-emerald-600" />
-              Role-Based JWT Authorization
-            </span>
-            <span>•</span>
-            <span className="flex items-center gap-1">
-              <Cpu className="w-3.5 h-3.5 text-purple-600" />
-              Atomic Transactions &amp; Triggers
-            </span>
           </div>
         </div>
       </footer>

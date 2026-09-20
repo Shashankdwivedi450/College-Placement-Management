@@ -25,13 +25,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, onOpe
     <header className="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-xs">
       {/* Top Demo Switcher Strip */}
       <div className="bg-slate-900 text-slate-200 px-4 py-1.5 text-xs flex flex-wrap items-center justify-between gap-2 border-b border-slate-800">
-        <div className="flex items-center gap-2">
-          <span className="inline-flex items-center px-2 py-0.5 rounded text-[10px] font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">
-            MySQL 8.0 • 3NF
-          </span>
-          <span className="hidden sm:inline text-slate-400">DBMS Academic Project Switcher:</span>
-        </div>
-
         <div className="flex items-center gap-1.5 overflow-x-auto">
           <button
             id="demo-btn-student"
@@ -88,9 +81,6 @@ export const Navbar: React.FC<NavbarProps> = ({ currentTab, setCurrentTab, onOpe
             <div className="flex items-center gap-2">
               <span className="font-bold text-slate-900 text-lg tracking-tight leading-none">
                 PlacePro
-              </span>
-              <span className="text-[11px] font-semibold uppercase tracking-wider px-1.5 py-0.5 rounded bg-blue-50 text-blue-700 border border-blue-200/60">
-                DBMS Core
               </span>
             </div>
             <p className="text-xs text-slate-500 font-normal">
