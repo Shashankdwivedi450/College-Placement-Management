@@ -1,0 +1,6 @@
+{
+  "name": "College Placement Management System",
+  "description": "Full-stack DBMS project for college placements featuring MySQL relational schema, stored procedures for automatic eligibility checking, views, triggers, and JWT role-based portals for Students, Recruiters, and Administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
